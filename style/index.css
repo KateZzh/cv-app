@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "DM Sans";
+}
+body {
+  width: 1200px;
+  margin: auto;
+  background-color: #e5e5e5;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+header .img-logo {
+  background-image: url("../assets/hs..svg");
+  width: 64px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header nav {
+  display: flex;
+}
+header nav p {
+  margin-right: 27px;
+  font: 500 22px "DM Sans";
+  color: #181717;
+}
+.preview {
+  margin-top: 120px;
+}
+.preview .img-arrow {
+  background-image: url(../assets/↓.svg);
+  width: 33px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 128px;
+}
+.preview .info {
+  display: flex;
+  justify-content: space-between;
+}
+.preview .info h1 {
+  font: 500 60px "DM Sans";
+  color: #181717;
+  width: 360px;
+}
+.preview .info p {
+  font: 400 32px "DM Sans";
+  color: #606060;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+footer .networks {
+  display: flex;
+}
+
+footer .networks p {
+  margin-right: 30px;
+  font: 500 22px "DM Sans";
+  color: #181717;
+}
+
+footer .name {
+  font: 500 22px "DM Sans";
+  color: #2429af;
+}
