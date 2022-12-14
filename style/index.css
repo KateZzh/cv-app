@@ -72,49 +72,49 @@ header nav p {
 
 /* ----------section "project"--------- */
 
-.portfolio {
+.project1 {
   display: flex;
   justify-content: space-between;
 }
 
-.project .portfolio .portfolio_text {
+.project .project1 .project1_text {
   display: flex;
   flex-direction: column;
   width: 356px;
 }
 
-.project .portfolio .portfolio_text h3 {
+.project .project1 .project1_text h3 {
   font: 500 24px "DM Sans";
   color: #181717;
   margin-top: 83px;
 }
 
-.project .portfolio .portfolio_text .text1 {
+.project .project1 .project1_text .text1 {
   font: 400 22px "DM Sans";
   color: #181717;
   margin-top: 25px;
 }
 
-.project .portfolio .portfolio_text .text2 {
+.project .project1 .project1_text .text2 {
   font: 400 22px "DM Sans";
   color: #606060;
   margin-top: 53px;
 }
 
-.project .portfolio .portfolio_text .text3 {
+.project .project1 .project1_text .text3 {
   font: 500 22px "DM Sans";
   color: #181717;
   text-decoration-line: underline;
   margin-top: 167px;
 }
 
-.project .portfolio .img-01 {
+.project .project1 .img-project {
   background-image: url(../assets/Thumbnail.svg);
-width: 640px;
-height: 364px;
-background-repeat: no-repeat;
-background-size: contain;
-margin-top: 83px; 
+  width: 640px;
+  height: 364px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 83px;
 }
 
 .project .line {
@@ -122,12 +122,107 @@ margin-top: 83px;
   margin-top: 106px;
 }
 
+.project2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project .project2 .project2_text {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+}
+
+.project .project2 .project2_text h3 {
+  font: 500 24px "DM Sans";
+  color: #181717;
+  margin-top: 114px;
+}
+
+.project .project2 .project2_text .text1 {
+  font: 400 22px "DM Sans";
+  color: #181717;
+  margin-top: 32px;
+}
+
+.project .project2 .project2_text .text2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 20px;
+}
+
+.project .project2 .project2_text .text3 {
+  font: 500 22px "DM Sans";
+  color: #181717;
+  text-decoration-line: underline;
+  margin-top: 156px;
+}
+
+.project .project2 .img-project {
+  background-image: url(../assets/Thumbnail.svg);
+  width: 640px;
+  height: 364px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 114px;
+}
+
+.project .line {
+  border: 1.5px solid #181717;
+  margin-top: 106px;
+}
+
+.project3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project .project3 .project3_text {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+}
+
+.project .project3 .project3_text h3 {
+  font: 500 24px "DM Sans";
+  color: #181717;
+  margin-top: 114px;
+}
+
+.project .project3 .project3_text .text1 {
+  font: 400 22px "DM Sans";
+  color: #181717;
+  margin-top: 46px;
+}
+
+.project .project3 .project3_text .text2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 18px;
+}
+
+.project .project3 .project3_text .text3 {
+  font: 500 22px "Inter";
+  color: #181717;
+  text-decoration-line: underline;
+  margin-top: 143px;
+}
+
+.project .project3 .img-project {
+  background-image: url(../assets/Thumbnail.svg);
+  width: 640px;
+  height: 364px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 114px;
+}
+
 /* ----------------footer----------- */
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 120px;
+  margin: 126px 0 116px 0;
 }
 
 footer .networks {
@@ -144,4 +239,3 @@ footer .name {
   font: 500 22px "DM Sans";
   color: #2429af;
 }
-
