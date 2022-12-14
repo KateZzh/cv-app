@@ -4,17 +4,22 @@
   font-style: normal;
   font-family: "DM Sans";
 }
+
 body {
-  width: 1200px;
+  width: 1440px;
   margin: auto;
   background-color: #e5e5e5;
 }
+
+/* ----------------header----------- */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
 }
+
 header .img-logo {
   background-image: url("../assets/hs..svg");
   width: 64px;
@@ -22,17 +27,24 @@ header .img-logo {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 header nav {
   display: flex;
 }
+
 header nav p {
   margin-right: 27px;
   font: 500 22px "DM Sans";
   color: #181717;
 }
+
+/* ----------------main----------- */
+/* ----------section "preview"--------- */
+
 .preview {
   margin-top: 120px;
 }
+
 .preview .img-arrow {
   background-image: url(../assets/↓.svg);
   width: 33px;
@@ -41,19 +53,76 @@ header nav p {
   background-size: contain;
   margin-top: 128px;
 }
+
 .preview .info {
   display: flex;
   justify-content: space-between;
 }
+
 .preview .info h1 {
   font: 500 60px "DM Sans";
   color: #181717;
   width: 360px;
 }
+
 .preview .info p {
   font: 400 32px "DM Sans";
   color: #606060;
 }
+
+/* ----------section "project"--------- */
+
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project .portfolio .portfolio_text {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+}
+
+.project .portfolio .portfolio_text h3 {
+  font: 500 24px "DM Sans";
+  color: #181717;
+  margin-top: 83px;
+}
+
+.project .portfolio .portfolio_text .text1 {
+  font: 400 22px "DM Sans";
+  color: #181717;
+  margin-top: 25px;
+}
+
+.project .portfolio .portfolio_text .text2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 53px;
+}
+
+.project .portfolio .portfolio_text .text3 {
+  font: 500 22px "DM Sans";
+  color: #181717;
+  text-decoration-line: underline;
+  margin-top: 167px;
+}
+
+.project .portfolio .img-01 {
+  background-image: url(../assets/Thumbnail.svg);
+width: 640px;
+height: 364px;
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: 83px; 
+}
+
+.project .line {
+  border: 1.5px solid #181717;
+  margin-top: 106px;
+}
+
+/* ----------------footer----------- */
 
 footer {
   display: flex;
@@ -75,3 +144,4 @@ footer .name {
   font: 500 22px "DM Sans";
   color: #2429af;
 }
+
