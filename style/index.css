@@ -17,7 +17,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 1440px;
 }
 
 header .img-logo {
@@ -33,9 +36,15 @@ header nav {
 }
 
 header nav p {
-  margin-right: 27px;
   font: 500 22px "DM Sans";
   color: #181717;
+}
+
+header nav p:hover {
+  text-decoration: underline;
+}
+header nav p:not(:last-child) {
+margin-right: 27px;
 }
 
 /* ----------------main----------- */
@@ -52,6 +61,11 @@ header nav p {
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 128px;
+  position: relative;
+}
+
+.preview .img-arrow:hover {
+  top: 3px;
 }
 
 .preview .info {
@@ -120,6 +134,7 @@ header nav p {
 .project .line {
   border: 1.5px solid #181717;
   margin-top: 106px;
+  background-color: #181717;
 }
 
 .project2 {
@@ -230,9 +245,12 @@ footer .networks {
 }
 
 footer .networks p {
-  margin-right: 30px;
   font: 500 22px "DM Sans";
   color: #181717;
+}
+
+footer .networks p:not(:last-child) {
+  margin-right: 30px;
 }
 
 footer .name {
