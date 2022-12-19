@@ -10,6 +10,7 @@ body {
   margin: auto;
   width: 1440px;
 }
+
 /* ----------------header----------- */
 
 header {
@@ -20,6 +21,7 @@ header {
   position: fixed;
   top: 0;
   width: 1440px;
+  background-color: #E5E5E5;
 }
 
 header .img-logo {
@@ -42,12 +44,14 @@ header nav p {
 header nav p:hover {
   text-decoration: underline;
 }
+
 header nav p:not(:last-child) {
   margin-right: 27px;
 }
 
 /* ----------------main----------- */
 /* Работа с about */
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -84,17 +88,24 @@ header nav p:not(:last-child) {
   margin-top: 80px;
 }
 
+.skills h3 {
+  font: 500 22px "DM Sans";
+  color: #181717;
+  text-decoration: underline;
+}
+
 .skills p {
   font: 400 20px "DM Sans";
   color: #181717;
   width: 430px;
 }
 
-.skills h3 {
-  font: 500 22px "DM Sans";
-  color: #181717;
-  text-decoration: underline;
+.feedback .line {
+  border: 2px solid #181717;
+margin-top: 110px;
+width: 1120px;
 }
+
 
 /* ----------------footer----------- */
 

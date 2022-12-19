@@ -22,7 +22,6 @@ header {
   top: 0;
   width: 1440px;
   background-color: #e5e5e5;
-  border: 1px solid #aaaeb2;
   z-index: 100;
 }
 
@@ -46,8 +45,9 @@ header nav p {
 header nav p:hover {
   text-decoration: underline;
 }
+
 header nav p:not(:last-child) {
-margin-right: 27px;
+  margin-right: 27px;
 }
 
 /* ----------------main----------- */
