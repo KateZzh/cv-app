@@ -21,7 +21,8 @@ header {
   position: fixed;
   top: 0;
   width: 1440px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
+  z-index: 100;
 }
 
 header .img-logo {
@@ -50,7 +51,7 @@ header nav p:not(:last-child) {
 }
 
 /* ----------------main----------- */
-/* Работа с about */
+/* ----- about ------*/
 
 .about {
   display: flex;
@@ -65,7 +66,7 @@ header nav p:not(:last-child) {
 .about .about-info h1 {
   font: 500 60px "DM Sans";
   color: #181717;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 480px;
 }
 
@@ -79,7 +80,11 @@ header nav p:not(:last-child) {
   background-repeat: no-repeat;
   width: 405px;
   height: 457px;
+  position: relative;
+  right: 14px;
 }
+
+/*------ skills------  */
 
 .skills {
   display: flex;
@@ -100,13 +105,47 @@ header nav p:not(:last-child) {
   width: 430px;
 }
 
+/* ---- feedback ----- */
+
 .feedback .line {
   border: 2px solid #181717;
-margin-top: 110px;
-width: 1120px;
+  width: 1440px;
+  background-color: #181717;
+  margin: 110px auto 0;
 }
 
+.feedback .wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 71px;
+}
 
+.feedback .wrapper .contacts {
+  display: flex;
+}
+
+.feedback .wrapper .contacts p {
+  font: 400 32px "DM Sans";
+  color: #181717;
+  width: 380px;
+}
+
+.feedback .wrapper .contacts .arrow-img {
+  background-image: url(../assets/↓-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 12px;
+  left: 41px;
+  width: 21px;
+  height: 24px;
+}
+
+.feedback .wrapper p {
+  font: 400 32px "DM Sans";
+  color: #181717;
+  padding-right: 136px;
+}
 
 /* ----------------footer----------- */
 
@@ -114,6 +153,11 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 126px 0 116px 0;
+}
+
+footer .name {
+  font: 500 22px "DM Sans";
+  color: #2429af;
 }
 
 footer .networks {
@@ -127,9 +171,4 @@ footer .networks p {
 
 footer .networks p:not(:last-child) {
   margin-right: 30px;
-}
-
-footer .name {
-  font: 500 22px "DM Sans";
-  color: #2429af;
 }
