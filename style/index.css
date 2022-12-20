@@ -51,7 +51,7 @@ header nav p:not(:last-child) {
 }
 
 /* ----------------main----------- */
-/* ----------section "preview"--------- */
+/* ----------preview--------- */
 
 .preview {
   margin-top: 120px;
@@ -87,7 +87,7 @@ header nav p:not(:last-child) {
   color: #606060;
 }
 
-/* ----------section "project"--------- */
+/* ----------project--------- */
 
 .project1 {
   display: flex;
